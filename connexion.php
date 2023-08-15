@@ -31,9 +31,9 @@ if(isset($_POST['valider'])){
 </head>
 <body>
     <form method="POST" action="" align="center">
-        <input type="text" name="pseudo" autocomplete="none">
+        <input type="text" name="pseudo" autocomplete="none" required>
         <br>
-        <input type="password" name="mdp">
+        <input type="password" name="mdp" required>
         <br>
         <input type="submit" name="valider">
     </form>
